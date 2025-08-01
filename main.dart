@@ -7,7 +7,6 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -31,7 +30,7 @@ class GreetingPage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // Styled "Hello, World!" text
+            // "Hello, World!" text
             Text(
               'Hello, World!',
               style: TextStyle(
@@ -51,7 +50,7 @@ class GreetingPage extends StatelessWidget {
 
             SizedBox(height: 20),
 
-            // Image from the Internet
+            // Image add
             Image.asset('assets/images.png',
               height: 100,),
 
@@ -75,3 +74,4 @@ class GreetingPage extends StatelessWidget {
     );
   }
 }
+
